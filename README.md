@@ -1,21 +1,10 @@
-# React + TypeScript + Vite + shadcn/ui
+# This is a demo of [PR #11109](https://github.com/shadcn-ui/ui/pull/11109)'s changes on Skeletons with HeroUI v2 for comparison
 
-This is a template for a new Vite project with React, TypeScript, and shadcn/ui.
+Source in [`src/App.tsx`](src/App.tsx).
 
-## Adding components
-
-To add components to your app, run the following command:
+To run the demo, use the following commands:
 
 ```bash
-npx shadcn@latest add button
-```
-
-This will place the ui components in the `src/components` directory.
-
-## Using components
-
-To use the components in your app, import them as follows:
-
-```tsx
-import { Button } from "@/components/ui/button"
+pnpm install
+pnpm dev
 ```
